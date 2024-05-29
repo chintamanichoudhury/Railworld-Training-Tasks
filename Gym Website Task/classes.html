@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Star Gym</title>
+  <link rel="stylesheet" href="src/styles/classes.css">
+  <script src="https://kit.fontawesome.com/9e22f567be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="topnav">
+    <div class="brand">
+        <a href="#"><img src="public/images/logo.png" alt=""></a>
+    </div>
+    <nav id="myLinks">
+        <a href="index.html" class="nav_link"><span>Home</span></a>
+        <a href="classes.html" class="nav_link"><span>Classes</span></a>
+        <a href="products.html" class="nav_link"><span>Products</span></a>
+        <a href="blogs.html" class="nav_link"><span>Blogs</span></a>
+        <button id="mybtn">Join Us</button>
+    </nav>
+    <div class="hamburger">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <a href="javascript:void();" onclick="myFunction()"><img src="public/images/hamburger.png" width="25px" height="25px" alt=""></a></div>
+</header>
+<section>
+    <div class="hero">
+        <h3>Our Classes</h3>
+        <div class="classes_container">
+            <div class="boxs">
+                <img src="public/images/gym32.png" alt="">
+                <div>6:30 - 7:30 AM</div>
+                <button>Power Excello</button>
+            </div>
+            <div class="boxs">
+                <img src="public/images/gym21.png" alt="">
+                <div>6:30 - 7:30 AM</div>
+                <button>Mixed-Level Excello</button>
+            </div>
+            <div class="boxs">
+                <img src="public/images/gym41.png" alt="">
+                <div>6:30 - 7:30 AM</div>
+                <button>Beginner level</button>
+            </div>
+        </div>
+    </div>
+    <div class="tpartners">
+        <h2>Our Training Partners</h2>
+        <div class="tpartners_container">
+            <div class="pboxs">
+                <img src="public/images/Rectangle25.png" alt="">
+                <button>John Smith</button>
+            </div>
+            <div class="pboxs">
+                <img src="public/images/Rectangle26.png" alt="">
+                <button>Anais Louis</button>
+            </div>
+            <div class="pboxs">
+                <img src="public/images/Rectangle27.png" alt="">
+                <button> Phil heath</button>
+            </div>
+        </div>
+    </div>
+    <div class="slideshow">
+        <div class="slide">
+            <img src="public/images/Rectangle53.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="public/images/dylan-gillis.jpeg" alt="">
+        </div>
+        <div class="slide">
+            <img src="public/images/couple-training.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="public/images/pexels-leon.jpg" alt="">
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer">
+        <div class="footer_div">
+            <div>
+                <div class="ftlogo"><a href="#"><img src="public/images/logo.png" height="70px" width="180px" alt=""></a></div>
+                <div>Prioritize Your Fitness Goals
+                    with our world class services</div>
+            </div>
+            <div class="footer_div2">
+                <div class="grids">
+                    <div class="tit">COMPANY</div>
+                    <div><a href="javascript:void()">About</a></div>
+                    <div><a href="javascript:void()">Careers</a></div>
+                    <div><a href="javascript:void()">Blogs</a></div>
+                </div>
+                <div class="grids">
+                    <div class="tit">CONTACT</div>
+                    <div><a href="javascript:void()">Help/FAQs</a></div>
+                    <div><a href="javascript:void()">Press</a></div>
+                    <div><a href="javascript:void()">Mobile</a></div>
+                </div>
+                <div class="grids">
+                    <div class="tit">MORE</div>
+                    <div><a href="javascript:void()">Program</a></div>
+                    <div><a href="javascript:void()">Plans</a></div>
+                    <div><a href="javascript:void()">Method</a></div>
+                </div>
+                <div class="btntags">
+                    <div class="tags">Popular Tags</div>
+                    <div><button class="graybtn">ABS</button><button class="graybtn">Workout</button></div>
+                    <div><button class="yellowbtn">Nutrition</button><button class="graybtn">GYM</button></div>
+                    <div><button class="graybtn">Boxing</button><button class="yellowbtn">Trainers</button></div>
+                    <div><button class="yellowbtn">Facilities</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div>&copy; CopyRight  All  Rights  Reserved</div>
+    </div>
+</footer>
+<!-- modal -->
+<div id="mymodal" class="modal">
+  <div class="modal-content">
+      <span class="close">&times;</span>
+      <div>
+          <div class="form_title">SUBSCRIPTION PLAN</div>
+          <form class="subscription_form">
+              <dl>
+                  <dt>Full Name:</dt>
+                  <dd><input type="text" placeholder=" Your Name" required name="name"></dd>
+                  <dt>Email:</dt>
+                  <dd><input type="email" placeholder="Your Email Address" required name="email"></dd>
+                  <dt>Mobile Number:</dt>
+                  <dd><input type="text" placeholder="Your Mobile" required name="mobile"></dd>
+                  <dt>Duration:</dt>
+                  <dd>
+                      <input type="radio" name="duration" id="monthly"><label for="monthly"> Monthly</label>
+                      <input type="radio" name="duration" id="yearly"><label for="yearly"> Yearly</label>
+                  </dd>
+                  <dt>Mode Of Payment:</dt>
+                  <dd>
+                      <input type="radio" name="payment"><label> Cash</label>
+                      <input type="radio" name="payment"><label> Online</label>
+                  </dd>
+                  <dt>Personal Training: <span>(*free with yearly plan)</span></dt>
+                  <dd><input type="radio" name="ptraining"><label> Required</label></dd>
+                  <dd><input type="radio" name="ptraining"><label> Not Required</label></dd>
+                  <dt><input type="checkbox" checked><label> I accept all terms and conditions provided in this form</label></dt>
+              </dl>
+              <button class="buybtn">BUY PLAN</button>
+          </form>
+      </div>
+  </div>
+</div>
+
+<script src="src/scripts/classes.js"></script>
+</body>
+</html>

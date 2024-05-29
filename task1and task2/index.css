@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media screen and (min-width:600px){
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:15px;
+        color: white;
+        background-color: black;
+    }
+    .nav-container a{
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+        padding: 5px;
+    }
+    .nav-container a:hover{
+        color: yellow;
+        border-bottom:2px solid yellow ;
+    }
+    .login-container{
+        display: flex;
+    }
+    .icon{
+        margin-left: 10px;
+        display: none;
+    }
+    .login-btn{
+        width: 80px;
+        padding: 7px;
+        background-color: rgb(30, 58, 243);
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    .slide img{
+        height: 650px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .nav-container{
+        background-color: #2eedcd;
+        padding: 15px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        /* align-items: start; */
+        
+    }
+    #nav-link{
+        display: none;
+        margin-top: 15px;
+    }
+    #nav-link a{
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .nav-links a{
+        margin-top: 10px;
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .nav-container a:hover{
+        color: yellow;
+        border-bottom:2px solid yellow ;
+    }
+    .login-container{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: flex;
+    }
+    .icon{
+        margin-left: 10px;
+    }
+    .login-btn{
+        width: 80px;
+        padding: 7px;
+        background-color: rgb(30, 58, 243);
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    .slide img{
+        height: 250px;
+        width: 100%;
+    }
+}

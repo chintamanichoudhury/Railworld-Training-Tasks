@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/* header code start */
+header{
+    background-color: rgba(254, 215, 186, 1);
+    position: sticky;
+    top: 0px;
+    z-index: 400;
+    box-shadow: 0px 0px 5px rgb(245, 238, 238);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.brand-logo img{
+    height: auto;
+    width: 200px;
+}
+.nav-icons{
+    display: flex;
+    justify-content: space-between;align-items: center;
+}
+.nav-icons i{
+    margin-right: 15px;
+    font-size: 18px;
+}
+.user-icon{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(139, 0, 0, 1);
+    color: white;
+    border-radius: 35px;
+    display: inline-block;
+    display: flex;justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+/* header code end  */
+
+
+/* section code start */
+section{
+    background-color: rgba(254, 215, 186, 1);;
+}
+.img-div-1{
+    padding: 20px 20px 0px 20px;
+}
+.img-div-1 img{
+    width: 100%;
+}
+.main-div{
+    padding: 0px 20px 20px 20px;
+    font-family: "Poppins", sans-serif;
+}
+.main-div a{
+    text-decoration: none;
+    color: #000;
+}
+.img-list-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.img-list-1 img{
+    width: 300px;
+    height: 300px;
+}
+.img-list-1 button{
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: -4px;
+    border: none;
+}
+.last-div{
+    padding: 20px
+}
+.last-div img{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* footer code start */
+
+footer{
+    background-color: rgba(254, 215, 186, 1);
+    font-family: "Nunito Sans", sans-serif;
+}
+.footer{
+    background-color: rgba(217, 217, 217, 1);
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+    padding: 40px 15px 25px 25px;
+}
+.footer-title{
+    color: rgba(139, 0, 0, 1);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer-title~div{
+    margin-bottom: 8px;
+}
+.fa-phone,.fa-message,.fa-rocketchat{
+    margin-right: 20px;
+}
+.copyright{
+    height: 80px;
+    color: rgba(139, 0, 0, 1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.footer-icons{
+    background-color: rgba(217, 217, 217, 1);
+    text-align: center;
+    padding: 15px 5px;
+}
+.footer-icons span{
+    color: rgba(139, 0, 0, 1);
+    font-weight: bold;
+
+}
+.footer-icons i{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.footer-icons a{
+    text-decoration: none;
+    color: #000;
+}

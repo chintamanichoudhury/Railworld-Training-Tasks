@@ -39,18 +39,14 @@ header{
     margin-right: 15px;
     font-size: 18px;
 }
-.user-icon{
-    height: 35px;
-    width: 35px;
-    background-color: rgba(139, 0, 0, 1);
-    color: white;
-    border-radius: 35px;
-    display: inline-block;
-    display: flex;justify-content: center;
-    align-items: center;
-    font-size: 21px;
-    font-weight: bold;
-    font-family: "Nunito Sans", sans-serif;
+.signin-link{
+    height: 25px;
+    width: 50px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 1px 1px 4px #000;
 }
 
 
@@ -314,10 +310,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 550px;
 }
-.carousel img{
-    width: 96%;
+.carousel video{
+    width: 1325px;
 }
 
 /* recomend-div code start */
@@ -414,4 +410,1005 @@ footer{
 .footer-icons a{
     text-decoration: none;
     color: #000;
+}
+
+/* admin user login btn container */
+
+.admin_user_login_outer{
+    display: none;
+}
+.admin_user_login{
+    height: 400px;
+    width: 750px;
+    display: flex;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 1px 2px 9px rgba(210, 127, 127, 1);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    position: fixed;
+    top: 140px;
+    left: 350px;
+}
+.admin_user_login a{
+    text-decoration: none;
+    color: unset;
+}
+.admin_login_close{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.admin_user_img{
+    height: 400px;
+    width: 250px;
+}
+.text-container{
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+}
+.btn_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+.admin_login_btn{
+    height: 40px;
+    width: 200px;
+    background-color: rgba(210, 127, 127, 1);
+    border: none;
+    font-size: 20px;
+    color: white;
+    box-shadow: 2px 2px 4px #000;
+}
+.user_login_btn{
+    height: 40px;
+    width: 200px;
+    background-color: rgba(210, 127, 127, 1);
+    border: none;
+    font-size: 20px;
+    color: white;
+    box-shadow: 2px 2px 4px #000;
+}
+.admin_login_btn:hover{
+    background-color: rgb(227, 115, 115);
+}
+.user_login_btn:hover{
+    background-color: rgb(227, 115, 115);
+}
+
+
+/* signup-container */
+.signup-outer{
+    display: none;
+}
+.signup-container{
+    height: 550px;
+    width: 1000px;
+    display: flex;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 1px 1px 9px rgba(210, 127, 127, 1);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    position: fixed;
+    top: 90px;
+    left: 200px;
+}
+.signup-container a{
+    text-decoration: none;
+    color: unset;
+}
+.signup-container .close-icon{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.signup-container .signup-img{
+    height: 550px;
+    width: 350px;
+}
+.signup-text{
+    width: 650px;
+    height: 550px;
+    background-color: #fff;
+}
+.signup-container .heading-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(218, 96, 96);
+}
+.signup-container .signup-signup{
+    font-size: 20px;
+    color: rgb(218, 96, 96);
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 3px solid rgb(218, 96, 96);
+    cursor: pointer;
+}
+.signup-container .signup-login{
+    font-size: 20px;
+    color: rgb(218, 96, 96);
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.signup-container .login:hover{
+    border-bottom: 3px solid rgb(218, 96, 96);
+}
+.offer{
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.form-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.form-div form{
+    width: 500px;
+}
+.name-div{
+    margin-bottom: 5px;
+    border-bottom: 1px solid red;
+    padding-bottom: 5px;
+}
+.name-div input{
+    height: 30px;
+    width: 500px;
+    border: none;
+    outline: none;
+
+}
+.name-div input::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.email-div{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid red;
+}
+.email-div input{
+    height: 30px;
+    width: 400px;
+    border: none;
+    outline: none;
+}
+.email-div button{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(210, 127, 127, 1);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+.email-div input::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.mobile-div{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid red;
+}
+.mobile-div input{
+    height: 30px;
+    width: 400px;
+    border: none;
+    outline: none;
+}
+.mobile-div button{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(210, 127, 127, 1);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+.mobile-div input::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.password-div{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid red;
+}
+.password-div input{
+    height: 30px;
+    width: 490px;
+    border: none;
+    outline: none;
+}
+.password-div input::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.confirm-password-div{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid red;
+}
+.confirm-password-div input{
+    height: 30px;
+    width: 490px;
+    border: none;
+    outline: none;
+}
+.confirm-password-div input::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.declaration-div{
+    margin-top: 10px;
+}
+.declaration-div input{
+    margin-right: 10px;
+}
+.signup-btn{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(210, 127, 127, 1);
+    border: none;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+}
+.login-link-div{
+    margin-top: 20px;
+}
+.login-link-div .login2{
+    text-decoration: none;
+    color: rgb(218, 96, 96);
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* login container */
+
+.login-outer{
+    display: none;
+}
+.login-container{
+    height: 550px;
+    width: 1000px;
+    display: flex;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 1px 1px 9px rgba(210, 127, 127, 1);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    position: fixed;
+    top: 90px;
+    left: 200px;
+}
+.login-container a{
+    text-decoration: none;
+    color: unset;
+}
+.login-container .login-close-icon{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.login-container .login-img{
+    height: 550px;
+    width: 350px;
+}
+.login-text{
+    width: 650px;
+    height: 550px;
+    background-color: #fff;
+}
+.login-container .heading-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(218, 96, 96);
+}
+.login-container .login-signup{
+    font-size: 20px;
+    color: rgb(218, 96, 96);
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.login-container .login-login{
+    font-size: 20px;
+    color: rgb(218, 96, 96);
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 3px solid rgb(218, 96, 96);
+    cursor: pointer;
+}
+.login-container .signup:hover{
+    border-bottom: 3px solid rgb(218, 96, 96);
+}
+.signin-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.signin-form-container form{
+    width: 500px;
+}
+.email_mobile{
+    margin-bottom: 5px;
+    border-bottom: 1px solid red;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.signin-form-container input[type=text]{
+    height: 30px;
+    width: 500px;
+    border: none;
+    outline: none;
+}
+.signin-form-container input[type=text]::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.password{
+    margin-bottom: 5px;
+    border-bottom: 1px solid red;
+    padding-bottom: 5px;
+}
+.signin-form-container input[type=password]{
+    height: 30px;
+    width: 500px;
+    border: none;
+    outline: none;
+}
+.signin-form-container input[type=password]::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.login-btn{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(218, 96, 96);
+    border: none;
+    border-radius: 4px;
+    margin-top: 35px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.logingoogle-btn{
+    width: 77%;
+    height: 40px;
+    background-color: rgba(255, 0, 0, 1);
+    border: none;
+    border-radius: 4px;
+    margin-top: 35px;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logingoogle-btn i{
+    margin-right: 150px;
+    margin-left: 10px;
+}
+.forget-password-link{
+    cursor: pointer;
+}
+.newsign{
+    margin-top: 25px;
+}
+.signinsignup{
+    margin-left: 15px;
+    color: rgb(218, 96, 96);
+    cursor: pointer;
+}
+
+/* forget password container */
+.forget-password-outer{
+    display: none;
+}
+.forget-password{
+    height: 550px;
+    width: 1000px;
+    display: flex;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 1px 1px 9px rgba(210, 127, 127, 1);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    position: fixed;
+    top: 90px;
+    left: 200px;
+}
+.forget-password .forget-close-icon{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.forget-password .inst{
+    color: rgb(218, 96, 96);
+    text-align: center;
+    margin-top: 30px;
+}
+.forget-password .forget-img{
+    height: 550px;
+    width: 350px;
+}
+.forget-text{
+    width: 650px;
+    height: 550px;
+    background-color: #fff;
+}
+.forget-password .heading-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(218, 96, 96);
+}
+.forget-password .heading-box div{
+    color: rgb(218, 96, 96);
+}
+.forget-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.forget-form-container form{
+    width: 500px;
+}
+.forget-form-container input[type=text]{
+    height: 40px;
+    width: 500px;
+    border: 1px solid rgb(218, 96, 96);
+    outline: none;
+    padding-left: 10px;
+}
+.forget-form-container input[type=text]::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.reset-btn{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(218, 96, 96);
+    border: none;
+    border-radius: 4px;
+    margin-top: 35px;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.login-from-forget{
+    cursor: pointer;
+}
+
+/* otp container */
+.otp-outer{
+    display: none;
+}
+.otp-container{
+    height: 550px;
+    width: 1000px;
+    display: flex;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 1px 1px 9px rgba(210, 127, 127, 1);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    position: fixed;
+    top: 90px;
+    left: 200px;
+}
+.otp-container .otp-close-icon{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.otp-container .otp-img{
+    height: 550px;
+    width: 350px;
+}
+.otp-text{
+    width: 650px;
+    height: 550px;
+    background-color: #fff;
+}
+.otp-container .heading-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(218, 96, 96);
+    color: rgb(218, 96, 96);
+}
+.otp-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.otp-form-container form{
+    width: 400px;
+}
+.otp-box{
+    display: flex;
+    justify-content: space-between;
+}
+.otp-form-container input[type=text]{
+    height: 40px;
+    width: 50px;
+    border: 1px solid rgb(218, 96, 96);
+    outline: none;
+    padding-left: 10px;
+}
+.otp-form-container input[type=text]::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.otp-container .continue-btn{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(218, 96, 96);
+    border: none;
+    border-radius: 4px;
+    margin-top: 40px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.otp-container .resend-div{
+    margin-bottom: 40px;
+}
+.otp-container .resend-otp{
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.otp-container .back-login{
+    cursor: pointer;
+}
+.otp-container .back-login i{
+    margin-right: 10px;
+}
+
+/* reset password container */
+.reset-outer{
+    display: none;
+}
+.reset-container{
+    height: 550px;
+    width: 1000px;
+    display: flex;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 1px 1px 9px rgba(210, 127, 127, 1);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    position: fixed;
+    top: 90px;
+    left: 200px;
+}
+.reset-container .reset-close-icon{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.reset-container .reset-img{
+    height: 550px;
+    width: 350px;
+}
+.reset-text{
+    width: 650px;
+    height: 550px;
+    background-color: #fff;
+}
+.reset-container .heading-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(218, 96, 96);
+    color: rgb(218, 96, 96);
+}
+.reset-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.reset-form-container form{
+    width: 500px;
+}
+.reset-form-container .warning{
+    color: rgb(218, 96, 96);
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.reset-form-container input[type=password]{
+    height: 40px;
+    width: 500px;
+    border: 1px solid rgb(218, 96, 96);
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.reset-form-container input[type=password]::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.reset-container .reset-continue-btn{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(218, 96, 96);
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.reset-container .resend-div{
+    margin-bottom: 40px;
+}
+.reset-container .resend{
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.reset-container .reset-back-login{
+    cursor: pointer;
+}
+.reset-container .reset-back-login i{
+    margin-right: 10px;
+}
+
+/* admin signup container */
+.admin-signup-outer{
+    display: none;
+}
+.admin-signup-container{
+    height: 550px;
+    width: 1000px;
+    display: flex;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 1px 1px 9px rgba(210, 127, 127, 1);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    position: fixed;
+    top: 90px;
+    left: 200px;
+}
+.admin-signup-container a{
+    text-decoration: none;
+    color: unset;
+}
+.admin-signup-container .admin-signup-close{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.admin-signup-container .admin-signup-img{
+    height: 550px;
+    width: 350px;
+}
+.admin-signup-text{
+    width: 650px;
+    height: 550px;
+    background-color: #fff;
+}
+.admin-signup-container .admin-heading-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(218, 96, 96);
+}
+.admin-signup-container .admin-signup{
+    font-size: 20px;
+    color: rgb(218, 96, 96);
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 3px solid rgb(218, 96, 96);
+    cursor: pointer;
+}
+.admin-signup-container .admin-login{
+    font-size: 20px;
+    color: rgb(218, 96, 96);
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.admin-signup-container .admin-login:hover{
+    border-bottom: 3px solid rgb(218, 96, 96);
+}
+.admin-signup-form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.admin-signup-form-box form{
+    width: 500px;
+}
+.admin-name-div{
+    margin-bottom: 5px;
+    border-bottom: 1px solid red;
+    padding-bottom: 5px;
+}
+.admin-name-div input{
+    height: 30px;
+    width: 500px;
+    border: none;
+    outline: none;
+
+}
+.admin-name-div input::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.admin-email-div{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid red;
+}
+.admin-email-div input{
+    height: 30px;
+    width: 400px;
+    border: none;
+    outline: none;
+}
+.admin-email-div button{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(210, 127, 127, 1);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+.admin-email-div input::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.admin-mobile-div{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid red;
+}
+.admin-mobile-div input{
+    height: 30px;
+    width: 400px;
+    border: none;
+    outline: none;
+}
+.admin-mobile-div button{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(210, 127, 127, 1);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+.admin-mobile-div input::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.admin-password-div{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid red;
+}
+.admin-password-div input{
+    height: 30px;
+    width: 490px;
+    border: none;
+    outline: none;
+}
+.admin-password-div input::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.admin-confirm-password-div{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid red;
+}
+.admin-confirm-password-div input{
+    height: 30px;
+    width: 490px;
+    border: none;
+    outline: none;
+}
+.admin-confirm-password-div input::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.admin-signup-btn{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(210, 127, 127, 1);
+    border: none;
+    border-radius: 4px;
+    margin-top: 60px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* admin login container */
+.admin-login-outer{
+    display: none;
+}
+.admin-login-container{
+    height: 550px;
+    width: 1000px;
+    display: flex;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 1px 1px 9px rgba(210, 127, 127, 1);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    position: fixed;
+    top: 90px;
+    left: 200px;
+}
+.admin-login-container .admin-login-close{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.admin-login-container .admin-login-img{
+    height: 550px;
+    width: 350px;
+}
+.admin-login-text{
+    width: 650px;
+    height: 550px;
+    background-color: #fff;
+}
+.admin-login-container .admin-login-heading-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(218, 96, 96);
+}
+.admin-login-container .adminlogin-signup{
+    font-size: 20px;
+    color: rgb(218, 96, 96);
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.admin-login-container .adminlogin-login{
+    font-size: 20px;
+    color: rgb(218, 96, 96);
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 3px solid rgb(218, 96, 96);
+    cursor: pointer;
+}
+.admin-login-container .adminlogin-signup:hover{
+    border-bottom: 3px solid rgb(218, 96, 96);
+}
+.admin-login-form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.admin-login-form-box form{
+    width: 500px;
+}
+.admin-login-mail-div{
+    margin-bottom: 15px;
+    border-bottom: 1px solid red;
+    padding-bottom: 5px;
+}
+.admin-login-mail-div input{
+    height: 30px;
+    width: 500px;
+    border: none;
+    outline: none;
+
+}
+.admin-login-mail-div input::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.admin-login-password-div{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid red;
+}
+.admin-login-password-div input{
+    height: 30px;
+    width: 490px;
+    border: none;
+    outline: none;
+}
+.admin-login-password-div input::placeholder{
+    color: rgb(218, 96, 96);
+    font-size: 16px;
+}
+.admin-login-btn{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(210, 127, 127, 1);
+    border: none;
+    border-radius: 4px;
+    margin-top: 60px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+}
+.admin-forget-password{
+    margin-top: 35px;
+    text-align: center;
+    cursor: pointer;
 }

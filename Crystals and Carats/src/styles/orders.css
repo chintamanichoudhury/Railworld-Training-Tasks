@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/* header code start */
+header{
+    background-color: rgba(254, 215, 186, 1);
+    position: sticky;
+    top: 0px;
+    z-index: 400;
+    box-shadow: 0px 0px 5px rgb(245, 238, 238);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.brand-logo img{
+    height: auto;
+    width: 200px;
+}
+.nav-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-icons i{
+    margin-right: 15px;
+    font-size: 18px;
+}
+.user-icon{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(139, 0, 0, 1);
+    color: white;
+    border-radius: 35px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+/* header code end  */
+
+
+/* section code start */
+section{
+    background-color: rgba(254, 215, 186, 1);
+    font-family: "Poppins", sans-serif;
+}
+.row{
+    display: grid;
+    grid-template-columns: 2.5fr 9.5fr;
+    gap: 20px;
+}
+.col-1{
+    height: 800px;
+    padding: 20px;
+    background-color: white;
+}
+.col-2{
+    height: 800px;
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;
+}
+.filter-title{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.title{
+    color: rgba(139, 0, 0, 1);
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.col-1 ol{
+    list-style: none;
+}
+.col-1 li{
+    margin-bottom: 10px;
+}
+.col-1 li input{
+    margin-right: 10px;
+}
+
+.col-2 input{
+    background-color: rgba(210, 127, 127, 0.5);
+    width: 1010px;
+    height: 30px;
+    border: 1px solid rgba(139, 0, 0, 0.5);
+    margin-top: 15px;
+    padding: 0px 10px;
+}
+.order-div{
+    display: flex;
+    gap: 30px;
+    margin-top: 35px;
+}
+.img-1{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgba(139, 0, 0, 1);
+    box-shadow: 5px 5px 4px rgba(210, 127, 127, 0.5);
+}
+.order-title{
+    color: rgba(113, 108, 108, 1);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.category{
+    font-weight: 600;
+    margin-top: 10px;
+}
+.price{
+    color: rgba(139, 0, 0, 1);
+    margin-top: 10px;
+    font-weight: 600;
+}
+.delreview{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 800px;
+}
+.delreview i{
+    margin-right: 10px;
+}
+.date{
+    color: rgba(38, 163, 50, 1);
+}
+.rate{
+    color:rgba(75, 4, 166, 1);
+}
+
+/* footer code start */
+
+footer{
+    background-color: rgba(254, 215, 186, 1);
+    font-family: "Nunito Sans", sans-serif;
+}
+.footer{
+    background-color: rgba(217, 217, 217, 1);
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+    padding: 40px 15px 25px 25px;
+}
+.footer-title{
+    color: rgba(139, 0, 0, 1);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer-title~div{
+    margin-bottom: 8px;
+}
+.fa-phone,.fa-message,.fa-rocketchat{
+    margin-right: 20px;
+}
+.copyright{
+    height: 80px;
+ 
+    color: rgba(139, 0, 0, 1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.footer-icons{
+    background-color: rgba(217, 217, 217, 1);
+    text-align: center;
+    padding: 15px 5px;
+}
+.footer-icons span{
+    color: rgba(139, 0, 0, 1);
+    font-weight: bold;
+
+}
+.footer-icons i{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.footer-icons a{
+    text-decoration: none;
+    color: #000;
+}

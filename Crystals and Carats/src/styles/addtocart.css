@@ -259,6 +259,7 @@ section{
     background-color: rgba(204, 189, 189, 1);
     border: 1px solid #000;
     border-radius: 5px;
+    cursor: pointer;
 }
 .amount-price{
     color: rgba(75, 4, 166, 1);

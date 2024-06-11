@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/* header code start */
+header{
+    background-color: rgba(254, 215, 186, 1);
+    position: sticky;
+    top: 0px;
+    z-index: 400;
+    box-shadow: 0px 0px 5px rgb(245, 238, 238);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.brand-logo img{
+    height: auto;
+    width: 200px;
+}
+.nav-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-icons i{
+    margin-right: 15px;
+    font-size: 18px;
+}
+.user-icon{
+    height: 35px;
+    width: 35px;
+    background-color: rgba(139, 0, 0, 1);
+    color: white;
+    border-radius: 35px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+/* header code end  */
+
+
+/* section code start */
+section{
+    background-color: rgba(254, 215, 186, 1);
+    font-family: "Poppins", sans-serif;
+}
+.row{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    gap: 20px;
+}
+.col-1{
+    height: 800px;
+    padding: 20px;
+    background-color: white;
+}
+.col-2{
+    height: 800px;
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;
+}
+.user-div{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(254, 215, 186, 1);
+}
+.usericon2{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    color: rgba(254, 215, 186, 1);
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.name-div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name-div .name{
+    font-weight: bold;
+    color: rgba(139, 0, 0, 1);
+}
+.odr{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.acset,.pyset,.stset,.set{
+    margin-bottom: 50px;
+}
+.log{
+    font-size: 20px;
+}
+.odr i,.acset i,.pyset i,.stset i,.set i,.log i{
+    margin-right: 10px;
+}
+.bold{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.right{
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.col-1 a{
+    text-decoration: none;
+    color: black;
+}
+.active a{
+    color: rgba(139, 0, 0, 1);
+    font-weight: 600;
+}
+.col-2 h1{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.add-btn{
+    background-color: rgba(210, 127, 127, 0.5);
+    border: 1px solid rgba(139, 0, 0, 1);
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 35px;
+}.home-address-div{
+    border: 1px solid rgba(139, 0, 0, 1);
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.homeede{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(139, 0, 0, 1);
+    font-weight: bold;
+}
+.editde span{
+    margin-left: 10px;
+
+}
+.nameno{
+    display: flex;
+}
+.nameno div{
+    margin-right: 15px;
+    font-weight: bold;
+}
+.dtype-title{
+    font-weight: bold;
+}
+.dtime-div input{
+    height: 20px;
+    width: 20px;
+}
+.radio-div-main{
+    display: flex;
+    gap: 100px;
+    margin-top: 15px;
+}
+.radio-div{
+    display: flex;
+    gap: 10px;
+}
+.office-address-div{
+    border: 1px solid rgba(139, 0, 0, 1);
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.officeede{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(139, 0, 0, 1);
+    font-weight: bold;
+}
+.b{
+    font-weight: bold;
+}
+
+/* footer code start */
+
+footer{
+    background-color: rgba(254, 215, 186, 1);
+    font-family: "Nunito Sans", sans-serif;
+}
+.footer{
+    background-color: rgba(217, 217, 217, 1);
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+    padding: 40px 15px 25px 25px;
+}
+.footer-title{
+    color: rgba(139, 0, 0, 1);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer-title~div{
+    margin-bottom: 8px;
+}
+.fa-phone,.fa-message,.fa-rocketchat{
+    margin-right: 20px;
+}
+.copyright{
+    height: 80px;
+ 
+    color: rgba(139, 0, 0, 1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.footer-icons{
+    background-color: rgba(217, 217, 217, 1);
+    text-align: center;
+    padding: 15px 5px;
+}
+.footer-icons span{
+    color: rgba(139, 0, 0, 1);
+    font-weight: bold;
+
+}
+.footer-icons i{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.footer-icons a{
+    text-decoration: none;
+    color: #000;
+}

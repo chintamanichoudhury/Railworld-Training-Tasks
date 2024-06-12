@@ -47,12 +47,15 @@ header{
     color: white;
     border-radius: 35px;
     display: inline-block;
-    display: flex;
-    justify-content: center;
+    display: flex;justify-content: center;
     align-items: center;
     font-size: 21px;
     font-weight: bold;
     font-family: "Nunito Sans", sans-serif;
+}
+.user-icon a{
+    text-decoration: none;
+    color: unset;
 }
 
 

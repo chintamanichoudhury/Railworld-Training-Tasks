@@ -74,7 +74,7 @@ header{
 }
 
 .col-1{
-    height: 1000px;
+    height: 1300px;
     padding: 20px;
     background-color: white;
 }
@@ -82,6 +82,10 @@ header{
     height: 1350px;
     background-color: rgba(254, 215, 186, 1);
     overflow-x: auto;
+}
+.col-2 a{
+    text-decoration: none;
+    color: unset;
 }
 .filter-container h1{
     font-size: 30px;
@@ -167,7 +171,19 @@ header{
 .product-title a:hover{
     color: rgb(63, 63, 238);
 }
-
+.img-div{
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-div img{
+    height: 400px;
+    width: 1050px;
+    border:2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
 
 
 /* footer code start */

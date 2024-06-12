@@ -45,10 +45,12 @@ header{
 }
 .signin-link{
     height: 25px;
-    width: 50px;
+    width: 70px;
     border-radius: 4px;
     border: none;
     cursor: pointer;
+    color: #fff;
+    background-color: rgb(218, 96, 96);
     font-size: 15px;
     box-shadow: 1px 1px 4px #000;
 }
@@ -124,6 +126,10 @@ header{
     display: grid;
     grid-template-columns: 6fr 6fr;
 }
+.crystal-carat-box a{
+    text-decoration: none;
+    color: black;
+}
 .Crystals span{
     font-size: 25px;
     margin-top: 25px;
@@ -185,7 +191,10 @@ header{
     justify-content: space-evenly;
     padding-bottom: 30px;
 }
-
+.product-cards a{
+    color: #000;
+    text-decoration: none;
+}
 /* bridal-div code start */
 
 .bridal-div{
@@ -210,6 +219,10 @@ header{
     height: 300px;
     background-color: rgba(204, 198, 198, 0.8);
     position: relative;
+}
+.gray-div a{
+    text-decoration: none;
+    color: initial;
 }
 .box-div{
     display: flex;
@@ -248,6 +261,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.giftcard-div a{
+    text-decoration: none;
+    color: unset;
 }
 .giftcard-div div{
     height: 500px;
@@ -304,7 +321,10 @@ header{
     background-color: rgba(217, 217, 217, 1);
     font-weight: bold;
 }
-
+.gender-box a{
+    text-decoration: none;
+    color: unset;
+}
 
 
 /* carousel code start */
@@ -676,9 +696,6 @@ footer{
     border-radius: 4px;
     margin-top: 15px;
     font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
     color: #fff;
 }
@@ -806,9 +823,6 @@ footer{
     font-size: 18px;
     color: #fff;
     margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
 }
 .logingoogle-btn{
@@ -820,8 +834,6 @@ footer{
     margin-top: 35px;
     font-size: 18px;
     color: #fff;
-    display: flex;
-    align-items: center;
     cursor: pointer;
 }
 .logingoogle-btn i{
@@ -918,9 +930,6 @@ footer{
     margin-top: 35px;
     font-size: 18px;
     color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 30px;
     cursor: pointer;
 }
@@ -1002,9 +1011,6 @@ footer{
     border-radius: 4px;
     margin-top: 40px;
     font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: #fff;
     margin-bottom: 40px;
     cursor: pointer;
@@ -1101,9 +1107,6 @@ footer{
     font-size: 18px;
     color: #fff;
     margin-bottom: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
 }
 .reset-container .resend-div{
@@ -1295,9 +1298,6 @@ footer{
     border-radius: 4px;
     margin-top: 60px;
     font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
     color: #fff;
 }
@@ -1409,9 +1409,6 @@ footer{
     border-radius: 4px;
     margin-top: 60px;
     font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
     color: #fff;
 }

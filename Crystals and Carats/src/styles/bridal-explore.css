@@ -127,6 +127,10 @@ header{
     width: 330px;
     border: 2px solid black;
 }
+.col-2 a{
+    text-decoration: none;
+    color: unset;
+}
 
 
 /* footer code start */

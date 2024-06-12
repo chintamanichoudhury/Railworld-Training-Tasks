@@ -119,6 +119,10 @@ section{
     margin-top: 15px;
     padding: 0px 10px;
 }
+.col-2 a{
+    text-decoration: none;
+    color: unset;
+}
 .order-div{
     display: flex;
     gap: 30px;

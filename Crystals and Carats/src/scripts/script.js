@@ -18,6 +18,11 @@ document.addEventListener('DOMContentLoaded',()=>{
     const loginone=document.querySelector('.signup-login');
     // login of signup container
     const logintwo=document.querySelector('.login2');
+    // emai verify btn of signup container
+    const emailverify=document.querySelector('.email-btn');
+    // mobile verify btn of signup container
+    const mobileverify=document.querySelector('.mobile-btn');
+    
     // login container
     const login_container=document.querySelector('.login-outer');
     // close btn of login container
@@ -72,22 +77,31 @@ document.addEventListener('DOMContentLoaded',()=>{
     const loginbtnOfAdminsignup=document.querySelector('.admin-login');
     //signup btn of admin signup container 
     const signupbtnOfadminSignup=document.querySelector('.admin-signup-btn');
+    //email verify btn of admin signup container 
+    const emailverifyOfadminSignup=document.querySelector('.admin-email-verify');
+    //mobile verify btn of admin signup container 
+    const mobileverifyOfadminSignup=document.querySelector('.admin-mobile-verify');
     // close btn of admin signup container
     const admin_signup_close=document.querySelector('.admin-signup-close');
     // close btn of admin login container
     const admin_login_close=document.querySelector('.admin-login-close');
+
+
+
 
     // login btn click of nav bar
     nav_login_btn.addEventListener('click',()=>{
         admin_user_outer.style.display='block';
     })
     // user login button click of admin user login container
-    admin_user_user_login_btn.addEventListener('click',()=>{
+    admin_user_user_login_btn.addEventListener('click',(e)=>{
+        e.preventDefault();
         admin_user_outer.style.display='none';
         login_container.style.display='block';
     })
     // admin login button click of admin user login container
-    admin_user_admin_login_btn.addEventListener('click',()=>{
+    admin_user_admin_login_btn.addEventListener('click',(e)=>{
+        e.preventDefault();
         admin_user_outer.style.display='none';
         admin_login_container.style.display='block';
     })
@@ -105,8 +119,19 @@ document.addEventListener('DOMContentLoaded',()=>{
         signup_container.style.display='none';
     })
 
+    // email verify btn click of signup container
+    emailverify.addEventListener('click',(e)=>{
+        e.preventDefault();
+    })
+
+    // mobile verify btn click of signup container
+    mobileverify.addEventListener('click',(e)=>{
+        e.preventDefault();
+    })
+
     // signup btn click of signup container
-    signup_btn.addEventListener('click',()=>{
+    signup_btn.addEventListener('click',(e)=>{
+        e.preventDefault();
         signup_container.style.display='none';
         login_container.style.display='block';
     })
@@ -133,12 +158,14 @@ document.addEventListener('DOMContentLoaded',()=>{
     })
 
     //loginwithgoogle btn click of login container
-    loginwithgoogle.addEventListener('click',()=>{
+    loginwithgoogle.addEventListener('click',(e)=>{
+        e.preventDefault();
         login_container.style.display='none';
         location.href='home.html';
     })
     //loginbtn click of login container
-    login.addEventListener('click',()=>{
+    login.addEventListener('click',(e)=>{
+        e.preventDefault();
         login_container.style.display='none';
         location.href='home.html';
     })
@@ -162,7 +189,8 @@ document.addEventListener('DOMContentLoaded',()=>{
         login_container.style.display='block';
     })
     // reset password click of forget password container
-    resetOfForget.addEventListener('click',()=>{
+    resetOfForget.addEventListener('click',(e)=>{
+        e.preventDefault();
         forgetPassword_container.style.display='none';
         otp_container.style.display='block';
     })
@@ -176,7 +204,8 @@ document.addEventListener('DOMContentLoaded',()=>{
         login_container.style.display='block';
     })
     // continue click of otp container
-    continueOfOtp.addEventListener('click',()=>{
+    continueOfOtp.addEventListener('click',(e)=>{
+        e.preventDefault();
         otp_container.style.display='none';
         reset_container.style.display='block';
     })
@@ -194,7 +223,8 @@ document.addEventListener('DOMContentLoaded',()=>{
         login_container.style.display='block';
     })
     // continue click of reset container
-    continueOfReset.addEventListener('click',()=>{
+    continueOfReset.addEventListener('click',(e)=>{
+        e.preventDefault();
         reset_container.style.display='none';
         login_container.style.display='block';
     })
@@ -213,13 +243,22 @@ document.addEventListener('DOMContentLoaded',()=>{
         admin_login_container.style.display='block';
     })
     // signup btn click of admin signup container
-    signupbtnOfadminSignup.addEventListener('click',()=>{
+    signupbtnOfadminSignup.addEventListener('click',(e)=>{
+        e.preventDefault();
         admin_signup_container.style.display='none';
         admin_login_container.style.display='block';
     })
     // close btn click of admin signup container
     admin_signup_close.addEventListener('click',()=>{
         admin_signup_container.style.display='none';
+    })
+     // email verify btn click of admin signup container
+     emailverifyOfadminSignup.addEventListener('click',(e)=>{
+        e.preventDefault();
+    })
+    // mobile verify btn click of admin signup container
+    mobileverifyOfadminSignup.addEventListener('click',(e)=>{
+        e.preventDefault();
     })
     // close btn click of admin login container
     admin_login_close.addEventListener('click',()=>{

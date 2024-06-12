@@ -83,6 +83,10 @@ header{
     background-color: rgba(254, 215, 186, 1);
     overflow-x: auto;
 }
+.col-2 a{
+    text-decoration: none;
+    color: unset;
+}
 .filter-container h1{
     font-size: 30px;
     margin-bottom: 15px;

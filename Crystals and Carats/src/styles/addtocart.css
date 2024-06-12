@@ -73,7 +73,12 @@ section{
 }
 .main-title{
     padding: 30px;
-    font-size: 29px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.main-title a{
+    color: black;
+    text-decoration: none;
 }
 .address{
     height: 100px;

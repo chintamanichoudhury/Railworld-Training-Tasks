@@ -120,6 +120,10 @@ header{
     text-decoration: none;
     color: black;
 }
+.col-2 a{
+    text-decoration: none;
+    color: black;
+}
 .crystals{
     height: 70px;
     width: 100%;

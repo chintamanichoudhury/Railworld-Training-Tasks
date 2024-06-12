@@ -100,6 +100,7 @@ section{
 }
 .col-1 .active{
     color: rgba(139, 0, 0, 1);
+    font-weight: bold;
 }
 .col-2 .about-heading{
     display: flex;
@@ -123,7 +124,15 @@ section{
     font-size: 18px;
     margin-bottom: 10px;
 }
-
+.col-1 a{
+    color: unset;
+    text-decoration: none;
+}
+.faqdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* footer code start */
 
 footer{

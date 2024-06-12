@@ -133,6 +133,9 @@ section{
     margin-left: 20px;
     margin-bottom: 5px;
 }
+.cancellation{
+    margin-top: 50px;
+}
 .col-1 a{
     color: unset;
     text-decoration: none;

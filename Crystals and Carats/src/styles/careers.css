@@ -77,12 +77,12 @@ section{
     gap: 20px;
 }
 .col-1{
-    height: 800px;
+    height: 1000px;
     padding: 20px;
     background-color: white;
 }
 .col-2{
-    height: 800px;
+    height: 1000px;
     background-color: white;
     overflow-x: auto;
     padding: 20px;
@@ -90,11 +90,6 @@ section{
 .col-1 h1{
     margin-bottom: 20px;
     color: rgba(139, 0, 0, 1);
-}
-.faqdiv{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .col-1 h3{
     line-height: 40px;
@@ -107,7 +102,7 @@ section{
     color: rgba(139, 0, 0, 1);
     font-weight: bold;
 }
-.col-2 .about-heading{
+.col-2 .career-heading{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,27 +110,34 @@ section{
     height: 70px;
     font-weight: 500;
     font-size:25px ;
-}
-.col-2 .about-content{
-    padding: 20px 20px;
-    font-size: 18px;
+    margin-bottom: 25px;
 }
 .col-2 .heading{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.col-2 .career-content{
+    padding: 0px 20px;
 }
 .col-2 p{
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
 }
 .col-2 li{
-    margin-left: 20px;
-    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 .col-1 a{
     color: unset;
     text-decoration: none;
+}
+.faqdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* footer code start */

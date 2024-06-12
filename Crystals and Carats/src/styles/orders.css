@@ -103,7 +103,10 @@ section{
 .col-1 li input{
     margin-right: 10px;
 }
-
+.col-1 a{
+    color: black;
+    text-decoration: none;
+}
 .col-2 input{
     background-color: rgba(210, 127, 127, 0.5);
     width: 1010px;

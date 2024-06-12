@@ -39,6 +39,10 @@ header{
     margin-right: 15px;
     font-size: 18px;
 }
+.nav-icons a{
+    color: black;
+    text-decoration: none;
+}
 .signin-link{
     height: 25px;
     width: 50px;

@@ -71,6 +71,10 @@ section{
     background-color: rgba(254, 215, 186, 1);
     font-family: "Poppins", sans-serif;
 }
+a{
+    text-decoration: none;
+    color: unset;
+}
 .main-title{
     padding: 30px;
     font-size: 22px;

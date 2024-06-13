@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystals & Carats</title>
+    <link rel="stylesheet" href="src/styles/view_orders.css">
+    <script src="https://kit.fontawesome.com/9e22f567be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-title"><a href="admin_dashboard.html">Dashboard</a></div>
+            <div class="brand-logo">
+                <a href="admin_dashboard.html"><img src="public/images/logo.png" alt=""></a>
+            </div>
+            <div class="user-icon">
+                <i class="fa-solid fa-user"></i>
+                <span>Admin</span>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="row">
+            <div class="col-1">
+                <ol>
+                    <ol>
+                        <li><a href="insert_product.html">Product</a></li>
+                        <li><a href="insert_category.html">Categories</a></li>
+                        <li><a href="slider_image.html">Slider Images</a></li>
+                        <li><a href="view_customer.html">View Customer</a></li>
+                        <li class="active"><a href="view_orders.html">View Orders</a></li>
+                        <li><a href="view_payment.html">View Payment</a>s</li>
+                    </ol>
+                </ol>
+            </div>
+            <div class="col-2">
+                <div class="header-div">View Orders</div>
+                <div class="table-div">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Order Id</th>
+                                <th>Prod Name</th>
+                                <th>Cust Email</th>
+                                <th>Prod Quantity</th>
+                                <th>Cust Address</th>
+                                <th>Delivery Pincode</th>
+                                <th>Invoice Number</th>
+                                <th>Order Price</th>
+                                <th>Order Date</th>
+                                <th>Order Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tr-1">
+                                <td>1</td>
+                                <td>abc</td>
+                                <td>abc@def.com</td>
+                                <td>2</td>
+                                <td>Delhi</td>
+                                <td>110001</td>
+                                <td>INV-9784-565-323</td>
+                                <td>7500</td>
+                                <td>24-12-2023</td>
+                                <td class="btn-div">
+                                    <button class="green">Delivered</button>
+                                    <button>Pending</button>
+                                </td>
+                            </tr>
+                            <tr class="tr-2">
+                                <td>2</td>
+                                <td>mno</td>
+                                <td>mno@pqr.com</td>
+                                <td>1</td>
+                                <td>Mumbai</td>
+                                <td>400012</td>
+                                <td>INV-3897-653-278</td>
+                                <td>95000</td>
+                                <td>22-12-2023</td>
+                                <td class="btn-div">
+                                    <button>Delivered</button>
+                                    <button class="yellow">Pending</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>xyz</td>
+                                <td>xyz@pqr.com</td>
+                                <td>4</td>
+                                <td>Raipur</td>
+                                <td>490020</td>
+                                <td>INV-3897-653-278</td>
+                                <td>8450</td>
+                                <td>27-12-2023</td>
+                                <td class="btn-div">
+                                    <button class="green">Delivered</button>
+                                    <button>Pending</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

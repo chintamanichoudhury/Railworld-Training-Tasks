@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/* header code start */
+header{
+    background-color: rgba(254, 215, 186, 1);
+    position: sticky;
+    top: 0px;
+    z-index: 400;
+    box-shadow: 0px 0px 5px rgb(245, 238, 238);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+header a{
+    text-decoration: none;
+    color: unset;
+}
+.nav-title{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.brand-logo img{
+    height: auto;
+    width: 200px;
+}
+.user-icon{
+    height: 35px;
+    width: 100px;
+    background-color: rgba(139, 0, 0, 1);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+
+/* header code end  */
+
+
+/* row container */
+
+.row{
+    display: grid;
+    grid-template-columns: 2.5fr 9.5fr;
+    font-family: "Poppins", sans-serif;
+}
+
+.col-1{
+    height: 600px;
+    padding: 20px;
+    background-color: white;
+}
+.col-2{
+    height: 650px;
+    background-color: rgba(254, 215, 186, 1);
+}
+.col-1 ol{
+    list-style: none;
+    margin-top: 15px;
+}
+.col-1 li{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.active{
+    color: rgba(139, 0, 0, 1);
+}
+.header-div{
+    height: 50px;
+    background-color: rgba(210, 127, 127, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+form{
+    padding: 0px 150px;
+}
+.tit{
+    color: rgba(139, 0, 0, 1);
+    font-weight: bold;
+}
+.col-1 a{
+    color: unset;
+    text-decoration: none;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+.line select{
+    height: 50px;
+    width: 200px;
+    border: 1px solid rgba(139, 0, 0, 1);
+    border-radius: 5px;
+}
+.line input[type=file]{
+    height: 50px;
+    width: 200px;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 100px;
+}
+.ins-btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(210, 127, 127, 0.5);
+    border: 1px solid rgba(139, 0, 0, 1);
+    cursor: pointer;
+}
+.vw-btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(132, 41, 43, 1);
+    border: 1px solid #000;
+    cursor: pointer;
+}
+

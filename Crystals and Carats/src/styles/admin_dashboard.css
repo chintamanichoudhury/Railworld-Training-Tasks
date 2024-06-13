@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/* header code start */
+header{
+    background-color: rgba(254, 215, 186, 1);
+    position: sticky;
+    top: 0px;
+    z-index: 400;
+    box-shadow: 0px 0px 5px rgb(245, 238, 238);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.nav-title{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.brand-logo img{
+    height: auto;
+    width: 200px;
+}
+header a{
+    text-decoration: none;
+    color: unset;
+}
+.user-icon{
+    height: 35px;
+    width: 100px;
+    background-color: rgba(139, 0, 0, 1);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+
+/* header code end  */
+
+
+/* row container */
+
+.row{
+    display: grid;
+    grid-template-columns: 2.5fr 9.5fr;
+    font-family: "Poppins", sans-serif;
+}
+
+.col-1{
+    height: 550px;
+    padding: 20px;
+    background-color: white;
+}
+.col-2{
+    height: 600px;
+    background-color: rgba(254, 215, 186, 1);
+}
+.admin-profile{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    background-color: rgba(254, 215, 186, 1);
+}
+.admin-profile i{
+    margin-right: 15px;
+}
+.col-1 ol{
+    list-style: none;
+    margin-top: 25px;
+}
+.col-1 li{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.col-1 a{
+    text-decoration: none;
+    color: unset;
+}
+.admin-profile .fa-user{
+    font-size: 50px;
+}
+.picon{
+    margin-left: 15px;
+}
+.name{
+    font-weight: bold;
+}
+.type{
+    font-weight: bold;
+    color: rgba(139, 0, 0, 1);
+}
+.fa-message+span,.fa-phone+span,.fa-location-dot+span{
+    color: rgba(139, 0, 0, 1);
+}
+.contact{
+    margin-bottom: 7px;
+}
+.header-div{
+    height: 50px;
+    background-color: rgba(210, 127, 127, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.main-div .box{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 10px;
+    background-color: rgba(210, 127, 127, 0.5);
+    
+}
+

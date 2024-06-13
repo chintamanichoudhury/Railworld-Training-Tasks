@@ -100,6 +100,7 @@ section{
 }
 .col-1 .range{
     width: 100%;
+    accent-color: rgba(139, 0, 0, 1);
     margin-top: 15px;
 }
 .col-1 .text{

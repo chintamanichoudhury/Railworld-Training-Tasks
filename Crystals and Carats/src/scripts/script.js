@@ -85,10 +85,11 @@ document.addEventListener('DOMContentLoaded',()=>{
     const admin_signup_close=document.querySelector('.admin-signup-close');
     // close btn of admin login container
     const admin_login_close=document.querySelector('.admin-login-close');
+    //admin login button of admin login container 
+    const loginbtnOfAdminLogin=document.querySelector('.admin-login-btn');
 
 
-
-
+    
     // login btn click of nav bar
     nav_login_btn.addEventListener('click',()=>{
         admin_user_outer.style.display='block';
@@ -247,6 +248,12 @@ document.addEventListener('DOMContentLoaded',()=>{
         e.preventDefault();
         admin_signup_container.style.display='none';
         admin_login_container.style.display='block';
+    })
+    // login click of admin login container
+    loginbtnOfAdminLogin.addEventListener('click',(e)=>{
+        e.preventDefault();
+        admin_login_container.style.display='none';
+        location.href='admin_dashboard.html';
     })
     // close btn click of admin signup container
     admin_signup_close.addEventListener('click',()=>{
